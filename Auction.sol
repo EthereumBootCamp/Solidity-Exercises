@@ -28,7 +28,7 @@ contract Auction {
 
 
 
-     // build getAsset() function
+    // build getAsset() function
 
     
     

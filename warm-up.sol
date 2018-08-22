@@ -24,11 +24,5 @@ contract exercise {
        return balance;
    }
 
-
-   function tripleBalance() constant public returns (uint) {
-       balance=3*balance;
-       return balance;
-   }
-
    
 }
