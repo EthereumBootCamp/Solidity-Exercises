@@ -7,9 +7,9 @@ contract Auction {
     address public beneficiary;
     string private password;
     
-    constructor (string asset, address beneficiary) public {
+    constructor (string asset, address owner) public {
         deployementTime = now;
-        beneficiary = beneficiary;
+        beneficiary = owner;
         password = asset;
     }
     
